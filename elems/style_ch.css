@@ -1,0 +1,187 @@
+
+.right{	
+	border-left: 1px solid black;
+	background-color: linear-gradient(180deg,DeepSkyBlue,DodgerBlue,DeepSkyBlue);	
+	float: right;
+	padding:10px;	
+}
+
+.right:hover{
+	background-color: DeepSkyBlue;
+	border-radius: 5px;
+	cursor: pointer;
+}
+ 
+
+body {	
+	 
+	 background: url("kosmos.jpg")no-repeat center center fixed;  
+	 background-size: cover;
+	 margin-top: 0px;
+	 margin-left: 0px;
+	 margin-right: 0px;	 
+}
+nav {
+	border: 1px solid black;
+	width: auto;	
+	background: linear-gradient(180deg,DodgerBlue,DeepSkyBlue,DodgerBlue);
+	border-radius: 4px;
+	height: 35px;
+	margin: 0;	
+	padding:10px;
+	position: relative;
+	
+}
+ #hello{
+	border-right: none;	
+	background-color: linear-gradient(180deg,DeepSkyBlue,DodgerBlue,DeepSkyBlue);	
+	float: left;
+	padding:10px;
+	color: green;
+}
+ 
+nav div.left {
+	border-right: 1px solid black;
+	background-color: linear-gradient(180deg,DeepSkyBlue,DodgerBlue,DeepSkyBlue);	
+	float: left;
+	padding:10px ;
+}
+
+.left:hover{
+	background-color: DeepSkyBlue;
+	border-radius: 5px;	
+	cursor: pointer;
+}
+
+ 
+nav div.center{
+	
+	position: absolute;
+	left: 40%;
+	width: 300px;
+	background-color: DeepSkyBlue;
+	border-radius: 10px;
+	margin-top: 45px;
+	padding: 10px;
+	opacity: 0.9;
+}  
+
+
+
+#users{
+	width: 200px;
+	height: 300px;
+	background-color: PowderBlue;
+	float: left;
+}
+#box{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	left: 30%;		
+}
+#name_user{
+	width: 500px;
+	background-color: DodgerBlue;
+	padding: 10px;
+	text-align: center;
+}
+
+#user_content{
+	
+	width: 500px;
+	height: 300px;
+	background-color: DeepSkyBlue;
+	padding: 10px;
+	overflow: auto;
+}
+p{
+	text-align: right;
+	color:red;
+}
+
+#add_text{	
+	
+	width: 500px;
+	height: 180px;	
+	background-color: DeepSkyBlue;	
+	padding: 10px;
+	
+} 
+input{
+	position: absolute;
+	right:0;	
+}
+
+a {
+	text-decoration:none; 
+}
+
+textarea {
+width: 100%;
+box-sizing: border-box;
+}
+/*main {	 
+		
+	background: linear-gradient(180deg,YellowGreen,MediumAquamarine);
+	margin: auto;
+	text-align: center;
+	box-shadow:5px 5px 4px SeaGreen;
+	width: 700px;
+	padding: 10px;	
+	opacity: 0.9;
+}
+
+main div a{	
+	color:blue;
+}
+
+main div a.active{
+	color:DarkSlateGray;
+	text-decoration:none; 
+}  
+
+ h1{
+	color: red;
+	text-shadow:5px 2px 4px SeaGreen;		
+}
+
+
+
+.pagination{
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+#content{
+	text-align:left;
+ 	padding: 0 30px 0 40px; 
+}
+
+main div p{
+	text-align:center;
+}
+
+footer {
+	position: bottom;	
+	bottom:10px;	
+}*/
+footer {
+	position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #008080; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
+/*
+div.test{
+width: 50px;	
+	height: 35px;
+	background-color:green;
+}
+.test:hover{
+	cursor: pointer;
+}
+
+/* <div class="clear"></div> */
